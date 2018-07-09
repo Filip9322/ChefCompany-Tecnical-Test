@@ -1,4 +1,37 @@
-body {
+header {
+	width: 100%;
 	font-family: 'Montserrat', sans-serif;
 	background-color: black;
+}
+.font-roboto{
+	font-family: 'Roboto', sans-serif;
+}
+.logo-header{
+}
+.nav-list{
+	list-style-type: none;
+	text-transform: uppercase;
+}
+.nav-l-item{
+	white-space: nowrap;
+	margin: 0 10px;
+}
+.nav-l-item a,.fontawesome{
+	text-decoration: none;
+	color: white;
+}
+.fontawesome{
+	font-size: 1.2em;
+}
+.fontawesome:hover{
+	color: #FCCB8D;
+}
+.nav-l-item a:hover{
+	color: #FCCB8D;
+	border-bottom: 2px solid #FCCB8D;
+	padding-bottom: 15px;
+}
+.special-underline{
+	border-bottom: 2px solid #FCCB8D;
+	padding-bottom: 15px;
 }
