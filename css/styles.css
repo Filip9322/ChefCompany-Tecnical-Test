@@ -1,5 +1,9 @@
-header {
-	width: 100%;
+body {
+	margin: 0;
+}
+header , footer{
+	color: white;
+	overflow: auto;
 	font-family: 'Montserrat', sans-serif;
 	background-color: black;
 }
@@ -34,4 +38,11 @@ header {
 .special-underline{
 	border-bottom: 2px solid #FCCB8D;
 	padding-bottom: 15px;
+}
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:120px;
+   width:100%;
 }
